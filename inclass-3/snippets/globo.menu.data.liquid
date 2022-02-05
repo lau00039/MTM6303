@@ -1,0 +1,16 @@
+{%- assign primary_locale = 'null' -%}
+{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{%- assign primary_locale = locale.iso_code | json -%}{%- endif -%}{%- endfor -%}
+<script type="text/javascript">
+  window.GloboMenuConfig = window.GloboMenuConfig || {}
+  window.GloboMenuConfig.hasCarousel = {% if items contains 'carousel' %}true{% else %}false{% endif %};
+  window.GloboMenuConfig.products = window.GloboMenuConfig.products || {};
+  window.GloboMenuConfig.collections = window.GloboMenuConfig.collections || {};
+  window.GloboMenuConfig.pages = window.GloboMenuConfig.pages || {};
+  window.GloboMenuConfig.curLocale = {{request.locale.iso_code | json}};
+  window.GloboMenuConfig.GloboMenuLocale = {{request.locale.iso_code | json}};
+  window.GloboMenuConfig.locale = {{primary_locale}};
+  window.GloboMenuConfig.isMultiCurrency  = false;
+  window.GloboMenuConfig.GloboMenuMissingProducts = [];
+  window.GloboMenuConfig.collections['dining-sets'] = {handle:{{-collections['dining-sets'].handle | json-}},title:{{-collections['dining-sets'].title | json-}}};{%- capture product -%}{{-all_products['outdoor-dining-set'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('outdoor-dining-set');{%- else -%}window.GloboMenuConfig.products['outdoor-dining-set'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['dining-set'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('dining-set');{%- else -%}window.GloboMenuConfig.products['dining-set'] = {{-product-}};{%- endif -%}
+window.GloboMenuConfig.pages['contact'] = {handle:{{-pages['contact'].handle | json-}},title:{{-pages['contact'].title | json-}}};window.GloboMenuConfig.pages['about-us'] = {handle:{{-pages['about-us'].handle | json-}},title:{{-pages['about-us'].title | json-}}};</script>
