@@ -1,51 +1,63 @@
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>{{section.settings.custom_text_title}}</strong>
-     {{section.settings.custom_text_body}}
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{ section.settings.card_image | image_url: width: 500 }}" alt="{{section.settings.card_image.alt}}">
+  <div class="card-body">
+    <h5 class="card-title">{{section.settings.card_title}}</h5>
+    <p class="card-text">{{section.settings.card_text}}</p>
+    <a href="{{section.settings.button_link}}" class="btn btn-primary">{{section.settings.button_text}}</a>
+  </div>
 </div>
 <style>
-.alert {
-        background : {{ section.settings.background-color }};
-          color:{{ section.settings.font-color }};
-    }
+  .card .btn {
+    background-color : {{ section.settings.btn-color}}
+  }
 </style>  
-
 {% schema %}
 {
-    "name": "Custom Banner",
+    "name": "Bootstrap Card",
     "tag": "section",
-    "class": "index-section--flush",
-    "settings": [{
-            "id": "custom_text_title",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "Card Image"
+        },
+        {
+            "type": "color",
+            "id": "btn-color",
+            "label": "Button Color",
+            "default": "#3b4d28"
+        },
+        {
             "type": "text",
-            "label": "Banner Title",
-            "default": "Banner Title"
+            "id": "card_title",
+            "label": "Title",
+            "default": "card title"
         },
         {
-            "id": "custom_text_body",
-            "type": "richtext",
-            "label": "Banner Text",
-            "default": "<p>Add your text here</p>"
+            "type": "text",
+            "id": "card_text",
+            "label": "Message",
+            "default": "Type Message Here"
         },
         {
-            "type": "color",
-            "id": "background-color",
-            "label": "Background Color",
-            "default": "#fff3cd"
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
         },
         {
-            "type": "color",
-            "id": "font-color",
-            "label": "Font Color",
-            "default": "#664d03"
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "GO ANYWHERE"
         }
     ],
     "presets": [{
-        "name": "Custom Banner",
+        "name": "Bootstrap Card",
         "category": "Custom"
     }]
 }
 {% endschema %}
+
 {% stylesheet %}
 {% endstylesheet %}
 
