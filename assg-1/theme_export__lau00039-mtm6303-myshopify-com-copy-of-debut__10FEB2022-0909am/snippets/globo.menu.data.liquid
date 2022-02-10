@@ -1,0 +1,21 @@
+{%- assign primary_locale = 'null' -%}
+{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{%- assign primary_locale = locale.iso_code | json -%}{%- endif -%}{%- endfor -%}
+<script type="text/javascript">
+  window.GloboMenuConfig = window.GloboMenuConfig || {}
+  window.GloboMenuConfig.hasCarousel = {% if items contains 'carousel' %}true{% else %}false{% endif %};
+  window.GloboMenuConfig.products = window.GloboMenuConfig.products || {};
+  window.GloboMenuConfig.collections = window.GloboMenuConfig.collections || {};
+  window.GloboMenuConfig.pages = window.GloboMenuConfig.pages || {};
+  window.GloboMenuConfig.curLocale = {{request.locale.iso_code | json}};
+  window.GloboMenuConfig.GloboMenuLocale = {{request.locale.iso_code | json}};
+  window.GloboMenuConfig.locale = {{primary_locale}};
+  window.GloboMenuConfig.isMultiCurrency  = false;
+  window.GloboMenuConfig.GloboMenuMissingProducts = [];
+  window.GloboMenuConfig.pages['about-us'] = {handle:{{-pages['about-us'].handle | json-}},title:{{-pages['about-us'].title | json-}}};window.GloboMenuConfig.collections['dining-sets'] = {handle:{{-collections['dining-sets'].handle | json-}},title:{{-collections['dining-sets'].title | json-}}};{%- capture product -%}{{-all_products['outdoor-dining-set'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('outdoor-dining-set');{%- else -%}window.GloboMenuConfig.products['outdoor-dining-set'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['dining-set'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('dining-set');{%- else -%}window.GloboMenuConfig.products['dining-set'] = {{-product-}};{%- endif -%}
+window.GloboMenuConfig.collections['chairs'] = {handle:{{-collections['chairs'].handle | json-}},title:{{-collections['chairs'].title | json-}}};{%- capture product -%}{{-all_products['10-office-chairs'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('10-office-chairs');{%- else -%}window.GloboMenuConfig.products['10-office-chairs'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['beige-eiffel-office-chair'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('beige-eiffel-office-chair');{%- else -%}window.GloboMenuConfig.products['beige-eiffel-office-chair'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['fabric-chair-black-white'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('fabric-chair-black-white');{%- else -%}window.GloboMenuConfig.products['fabric-chair-black-white'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['chairs-set-of-2'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('chairs-set-of-2');{%- else -%}window.GloboMenuConfig.products['chairs-set-of-2'] = {{-product-}};{%- endif -%}
+{%- capture product -%}{{-all_products['outdoor-chair'] | json-}}{%- endcapture -%}{%- if product contains 'Liquid error' -%}window.GloboMenuConfig.GloboMenuMissingProducts.push('outdoor-chair');{%- else -%}window.GloboMenuConfig.products['outdoor-chair'] = {{-product-}};{%- endif -%}
+window.GloboMenuConfig.pages['contact'] = {handle:{{-pages['contact'].handle | json-}},title:{{-pages['contact'].title | json-}}};</script>
