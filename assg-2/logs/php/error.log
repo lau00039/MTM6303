@@ -255,3 +255,215 @@
 [01-Apr-2022 22:38:04 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
 [01-Apr-2022 22:45:17 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
 [01-Apr-2022 22:47:15 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
+[01-Apr-2022 23:03:48 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
+[01-Apr-2022 23:19:29 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
+[01-Apr-2022 23:19:29 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
+[01-Apr-2022 23:21:09 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-content\themes\mtm6303-assg2\functions.php on line 19
+[01-Apr-2022 23:24:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:24:07 UTC] PHP Stack trace:
+[01-Apr-2022 23:24:07 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:24:07 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:24:07 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:24:07 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:24:07 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:24:07 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:24:07 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:24:07 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:24:07 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:24:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:24:11 UTC] PHP Stack trace:
+[01-Apr-2022 23:24:11 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:24:11 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:24:11 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:24:11 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:24:11 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:24:11 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:24:11 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:24:11 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:24:11 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:26:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:26:08 UTC] PHP Stack trace:
+[01-Apr-2022 23:26:08 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:26:08 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:26:08 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:26:08 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:26:08 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:26:08 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:26:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:26:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:26:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:26:24 UTC] PHP Stack trace:
+[01-Apr-2022 23:26:24 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:26:24 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:26:24 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:26:24 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:26:24 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:26:24 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:26:24 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:26:24 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:26:24 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:26:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:26:24 UTC] PHP Stack trace:
+[01-Apr-2022 23:26:24 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:26:24 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:26:24 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:26:24 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:26:24 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:26:24 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:26:24 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:26:24 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:26:24 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:28:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:28:04 UTC] PHP Stack trace:
+[01-Apr-2022 23:28:04 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:28:04 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:28:04 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:28:04 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:28:04 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:28:04 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:28:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:28:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:30:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:30:09 UTC] PHP Stack trace:
+[01-Apr-2022 23:30:09 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:30:09 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:30:09 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:30:09 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:30:09 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:30:09 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:30:09 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:30:09 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:32:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:32:10 UTC] PHP Stack trace:
+[01-Apr-2022 23:32:10 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:32:10 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:32:10 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:32:10 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:32:10 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:32:10 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:32:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:32:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:34:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:34:10 UTC] PHP Stack trace:
+[01-Apr-2022 23:34:10 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:34:10 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:34:10 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:34:10 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:34:10 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:34:10 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:34:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:34:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:35:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:35:54 UTC] PHP Stack trace:
+[01-Apr-2022 23:35:54 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:35:54 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:35:54 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:35:54 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:35:54 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:35:54 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:35:54 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:35:54 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:35:54 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:35:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:35:59 UTC] PHP Stack trace:
+[01-Apr-2022 23:35:59 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[01-Apr-2022 23:35:59 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[01-Apr-2022 23:35:59 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[01-Apr-2022 23:35:59 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:35:59 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:35:59 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:35:59 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:35:59 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:35:59 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[01-Apr-2022 23:36:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[01-Apr-2022 23:36:07 UTC] PHP Stack trace:
+[01-Apr-2022 23:36:07 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[01-Apr-2022 23:36:07 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[01-Apr-2022 23:36:07 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[01-Apr-2022 23:36:07 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[01-Apr-2022 23:36:07 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[01-Apr-2022 23:36:07 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[01-Apr-2022 23:36:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[01-Apr-2022 23:36:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:39:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:39:56 UTC] PHP Stack trace:
+[02-Apr-2022 00:39:56 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:39:56 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:39:56 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:39:56 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:39:56 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:39:56 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:41:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:41:57 UTC] PHP Stack trace:
+[02-Apr-2022 00:41:57 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:41:57 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:41:57 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:41:57 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:41:57 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:41:57 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:41:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:41:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:43:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:43:58 UTC] PHP Stack trace:
+[02-Apr-2022 00:43:58 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:43:58 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:43:58 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:43:58 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:43:58 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:43:58 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:43:58 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:43:58 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:45:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:45:59 UTC] PHP Stack trace:
+[02-Apr-2022 00:45:59 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:45:59 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:45:59 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:45:59 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:45:59 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:45:59 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:45:59 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:45:59 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:48:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:48:00 UTC] PHP Stack trace:
+[02-Apr-2022 00:48:00 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:48:00 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:48:00 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:48:00 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:48:00 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:48:00 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:48:00 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:48:00 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:50:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:50:01 UTC] PHP Stack trace:
+[02-Apr-2022 00:50:01 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:0
+[02-Apr-2022 00:50:01 UTC] PHP   2. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-admin\admin-ajax.php:22
+[02-Apr-2022 00:50:01 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:50:01 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:50:01 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:50:01 UTC] PHP   6. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:50:01 UTC] PHP   7. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:50:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:57:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:57:10 UTC] PHP Stack trace:
+[02-Apr-2022 00:57:10 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[02-Apr-2022 00:57:10 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[02-Apr-2022 00:57:10 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[02-Apr-2022 00:57:10 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:57:10 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:57:10 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:57:10 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:57:10 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:57:10 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
+[02-Apr-2022 00:57:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mtm6303assg2' not found or invalid function name in C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php on line 307
+[02-Apr-2022 00:57:14 UTC] PHP Stack trace:
+[02-Apr-2022 00:57:14 UTC] PHP   1. {main}() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:0
+[02-Apr-2022 00:57:14 UTC] PHP   2. require() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\index.php:17
+[02-Apr-2022 00:57:14 UTC] PHP   3. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-blog-header.php:13
+[02-Apr-2022 00:57:14 UTC] PHP   4. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-load.php:50
+[02-Apr-2022 00:57:14 UTC] PHP   5. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config.php:26
+[02-Apr-2022 00:57:14 UTC] PHP   6. require_once() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-config-local.php:93
+[02-Apr-2022 00:57:14 UTC] PHP   7. do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-settings.php:565
+[02-Apr-2022 00:57:14 UTC] PHP   8. WP_Hook->do_action() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\plugin.php:474
+[02-Apr-2022 00:57:14 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\TingLau\Local Sites\devlau00039mtm6303assg2\app\public\wp-includes\class-wp-hook.php:331
