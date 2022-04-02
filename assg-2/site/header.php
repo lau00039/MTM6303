@@ -43,9 +43,9 @@
 
 	?></title>
 
-<link href="<?php echo get_stylesheet_directory_uri() ?>./assets/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="<?php echo get_stylesheet_directory_uri() ?>./assets/favicon.ico" rel="icon">
-<link href="<?php echo get_stylesheet_directory_uri() ?>./assets/css/main.a3f694c0.css" rel="stylesheet" />
+<link href="<?php echo get_stylesheet_directory_uri() ?>/assets/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="<?php echo get_stylesheet_directory_uri() ?>/assets/favicon.ico" rel="icon">
+<link href="<?php echo get_stylesheet_directory_uri() ?>/assets/css/main.a3f694c0.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./index.html" title="">
-          <img src="./assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+          <img src="/assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
         </a>
       </div>
 
@@ -74,9 +74,9 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html" title="" class="active">Home</a></li>
-          <li><a href="./page.html" title=""> About</a></li>
-          <li><a href="./contact.html" title=""> Contact Us </a></li>
+          <li><a href="/index.html" title="" class="active">Home</a></li>
+          <li><a href="/page.html" title=""> About</a></li>
+          <li><a href="/contact.html" title=""> Contact Us </a></li>
         </ul>
       </div>
     </div>

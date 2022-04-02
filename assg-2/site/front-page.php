@@ -25,16 +25,14 @@ get_header(); ?>
                     <?php echo get_the_title();?>    
                 </h1>
 
-                <?php 
-                // TH SHOW THE PAGE CONTENTS
-                while ( have_posts() ) : the_post(); ?> <!--Because the_content () works only inside a WP Loop -->
-                    <div class="entry-content-page">
-                        <?php the_content(); ?> <!-- Page Content -->
-                    </div> <!-- entry-content-page -->
-
                 <?php
-                endwhile; //resetting the page loop
-                ?>
+			while ( have_posts() ) : the_post();
+
+				get_template_part( 'template-parts/page/content', 'front-page' );
+
+
+			endwhile; // End of the loop.
+			?>
 
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit. Ipsum dolor sit

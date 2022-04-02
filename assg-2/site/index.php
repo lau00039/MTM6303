@@ -15,7 +15,7 @@
 get_header(); ?>
 
 
-<div class="white-text-container background-image-container" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>./assets/images/img-home.jpg')">
+<div class="white-text-container background-image-container" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/images/img-home.jpg')">
     <div class="opacity"></div>
     <div class="container">
         <div class="row">
