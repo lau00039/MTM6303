@@ -25,10 +25,19 @@
 <!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
+
+
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<title><?php
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <meta charset="<?php bloginfo( 'charset' ); ?>" />
+  <meta name="viewport" content="width=device-width" />
+  <title><?php
 	// Print the <title> tag based on what is being viewed.
 	global $page, $paged;
 
@@ -47,18 +56,6 @@
 		echo esc_html( ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) ) );
 
 	?></title>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
@@ -91,9 +88,9 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
         <ul class="nav navbar-nav navbar-right">
-          <!-- <li><a href="<?php echo get_stylesheet_directory_uri() ?>./index.html" title="" class="active">Home</a></li>
-          <li><a href="<?php echo get_stylesheet_directory_uri() ?>./page.html" title=""> About</a></li>
-          <li><a href="<?php echo get_stylesheet_directory_uri() ?>./contact.html" title=""> Contact Us </a></li> -->
+          <li><a href="/" title="" class="active">Home</a></li>
+          <li><a href="/about-us" title="">About</a></li>
+          <li><a href="/contact-us" title=""> Contact Us</a></li> -->
           <?php 
             $menu_items = mtm6303final_getnav("top");
 
@@ -104,7 +101,7 @@
           <!-- <li ><a href="<?php echo $menu_item['url'] ?>" title="" class="<?php ($menu_item["active"]) ? "active" : "" ?>"><?php echo $menu_item["title"] ?>
         </a>
         </li> -->
-          <?
+          <?php
 
             }
           ?>

@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <img class="img-responsive" src="/assets/images/contact.jpg">
+                <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/contact.jpg">
             </div>
             <div class="col-xs-12">
 
